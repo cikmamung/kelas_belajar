@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Borang Pendaftaran</title>
+</head>
+<body>
+    <h2>Borang Pendaftaran</h2>
+
+    <form action="process.php" method="post">
+        <p>
+            <label for="nama">Nama Peserta</label>
+            <input type="text" name="nama" id="nama">
+        </p>    
+        <p>
+            <label for="email">Email</label>
+            <input type="text" name="email" id="email">
+        </p>  
+        <p>
+            <label for="nama">Nombor Telefon</label>
+            <input type="text" name="mobile_no" id="mobile_no">
+        </p> 
+        <p>
+            <label for="status">Status Pekerjaan</label>
+            <select name="status" id="status">
+                <option value="bekerja">Bekerja</option>
+                <option value="bekerja">Belajar</option>
+                <option value="bekerja">Tidak Bekerja</option>
+            </select>
+        </p>
+        <p>
+            <label for="jantina">Jantina</label>
+            <label for="lelaki">
+                <input type="radio" name="jantina" id="lelaki"> Lelaki 
+            </label>
+            <label for="perempuan">
+                <input type="radio" name="jantina" id="perempuan"> Perempuan 
+            </label>
+        </p>
+        <p>
+            <label for="pengalaman">Pengalaman</label>
+            <label for="html">
+                <input type="checkbox" name="pengalman[]" id="HTML"> HTML 
+            </label>
+            <label for="html">
+                <input type="checkbox" name="pengalman[]" id="CSS"> CSS 
+            </label>
+            <label for="html">
+                <input type="checkbox" name="pengalman[]" id="PHP"> PHP 
+            </label>
+        </p>
+        <p>
+            <button type="submit">DAFTAR</button>
+            <button type="reset">RESET</button>
+        </p>
+   </form>
+
+</body>
+</html>

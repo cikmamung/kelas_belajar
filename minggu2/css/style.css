@@ -73,12 +73,54 @@ section#banner {
     gap: 10px; /* Jarak antar sel */
   }
   .item {
-    padding: 0;
+    padding: 20px;
     text-align: center;
+    background: #fff;
+    border-radius: 20px;
   }.item img {
     width: 100%;
 }
+.author {
+    font-size: 12px;
+    text-align: left;
+    color: #000;
+    opacity: 0.7;
+}.title-book {
+    text-align: left;
+}
 
+span.comment img, span.rating img {
+    width: 15px;
+    margin: -3px 1px;
+}
+.btn-comment {
+    text-align: left;
+    margin: 10px 0;opacity: 0.8;
+}span.comment a,span.rating {
+    border: 1px solid #000;
+    border-radius: 20px;
+    padding: 5px 10px;
+    font-size: 13px;
+    text-decoration: none;
+    color: #000;
+}.price {
+    margin: 20px 0 0;
+    display: flex
+;
+}.item:hover {
+    background: #f4ce47;
+}span.comment a:hover {
+    background: #fcf2ce;
+}
+h4.price-before {
+    padding-right: 10px;
+    font-weight: normal;
+    text-decoration-line: line-through;
+    text-decoration-skip-ink: none;
+}
+h4.price-after {
+    font-weight: normal;
+}
 p.logo-bawah {
     display: flex;background: #2a2c2e;
     justify-content: space-between;

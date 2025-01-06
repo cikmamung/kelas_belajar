@@ -6,12 +6,15 @@ body * {
   }
 body {
     font-family: Poppins;
-    color: #333;margin: 0;
+    color: #333;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
 }header {
     display: flex;
     background: #323436;
     padding: 0 10px;
-    margin: 15px 100px;
+    margin: 15px 0;
     border-radius: 10px;
     height: 60px;
     align-items: center;
@@ -50,11 +53,11 @@ section#banner {
     height: 70px;
     margin: 20px 0;
 }.banner {
-    padding: 5px 100px;
+    padding: 5px 0;
     font-size: 40px;
     color: #ffe380;
     text-align: center;
-    letter-spacing: 4px;
+    letter-spacing: 2px;
 }span.highlight {
     color: #000;
 }main {
@@ -75,9 +78,7 @@ section#banner {
   }.item img {
     width: 100%;
 }
-footer {
-    margin: 0 100px;
-}
+
 p.logo-bawah {
     display: flex;background: #2a2c2e;
     justify-content: space-between;
